@@ -1,29 +1,35 @@
-# Foobar
+# .NET Framework
 
-Foobar is a Python library for dealing with word pluralization.
+ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.
+
+## Prerequisite
+OS - Windows10 or Windows server 2012 or higher.
+
+Must installed Docker for windows and switch to windows containers...
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+#### Step 1
+
+Use the source code in  [git](https://github.com/Gar0o0/DevOps.git) to download it. 
+
+#### Step 2
+
+To build docker image - 
+In root folder run the folowing command.
+
 
 ```bash
-pip install foobar
+docker build -t dotnetapp .
 ```
+#### Step 3
+To run docker container - run this command.
 
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```bash
+docker run -d -p 80:80 dotnetapp
 ```
+#### Step 4 
+check the application in your local machine in port 80
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Thanks 
