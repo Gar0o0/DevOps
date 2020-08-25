@@ -5,7 +5,7 @@ ASP.NET is a free web framework for building great Web sites and Web application
 ## Prerequisite
 OS - Windows10 or Windows server 2012 or higher.
 
-Must installed Docker for windows and switch to windows containers...
+Must installed Docker for windows and switched to windows containers...
 
 ## Installation
 
