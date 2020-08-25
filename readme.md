@@ -11,7 +11,7 @@ Must installed Docker for windows and switch to windows containers...
 
 #### Step 1
 
-Use the source code in  [git](https://github.com/Gar0o0/DevOps.git) to download it. 
+Use the source code in  [git](https://github.com/Gar0o0/DevOps.git) 
 
 #### Step 2
 
